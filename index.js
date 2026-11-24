@@ -151,7 +151,11 @@ let registration = null;
 /** Reads this extension's saved settings, filling in defaults. */
 function getSettings() {
     const { extensionSettings } = SillyTavern.getContext();
-    extensionSettings[SETTINGS_KEY] = { ...DEFAULT_SETTINGS, ...extensionSettings[SETTINGS_KEY] };
+    // Filled in place, so the object stays the same one that is saved and handlers can keep it.
+    extensionSettings[SETTINGS_KEY] ??= {};
+    for (const [name, value] of Object.entries(DEFAULT_SETTINGS)) {
+        extensionSettings[SETTINGS_KEY][name] ??= value;
+    }
     return extensionSettings[SETTINGS_KEY];
 }
 
