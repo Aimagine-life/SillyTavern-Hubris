@@ -1,7 +1,7 @@
 {
     "display_name": "Hubris",
     "author": "Hubris",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homePage": "https://github.com/Aimagine-life/SillyTavern-Hubris",
     "js": "index.js",
     "loading_order": 100,

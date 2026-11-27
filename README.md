@@ -6,12 +6,12 @@
 
 Adds **Hubris** to SillyTavern's Chat Completion sources.
 
-[Hubris](https://hubris.pw) is an OpenAI-compatible gateway to hundreds of language models behind one API key, with payment in rubles. This extension registers it as a named provider: the endpoint (`https://api.hubris.pw/v1`), the model list and the key handling are already filled in.
+[Hubris](https://hubris.pro) is an OpenAI-compatible gateway to hundreds of language models behind one API key, with payment in rubles. This extension registers it as a named provider: the endpoint (`https://api.hubris.pro/v1`), the model list and the key handling are already filled in.
 
 ## Requirements
 
 - SillyTavern 1.20.0 or newer. Until that release is out, use the `staging` branch.
-- A Hubris API key (starts with `sk-gw-`): <https://hubris.pw/keys>
+- A Hubris API key (starts with `sk-gw-`): <https://hubris.pro/keys>
 
 ## Install
 
@@ -23,7 +23,7 @@ Adds **Hubris** to SillyTavern's Chat Completion sources.
 1. Open **API Connections** and set **API** to **Chat Completion**.
 2. Under **Chat Completion Source**, pick **Hubris** in the **Custom Providers** group.
 3. Enter your API key, or pick one you saved before.
-4. Click **Connect**, then choose a model. The list is the live catalog: <https://hubris.pw/models>.
+4. Click **Connect**, then choose a model. The list is the live catalog: <https://hubris.pro/models>.
 
 ## Settings
 
@@ -38,8 +38,8 @@ Adds **Hubris** to SillyTavern's Chat Completion sources.
 
 ## Support
 
-- Documentation: <https://hubris.pw/docs>
-- Help with this extension or the service: <https://hubris.pw/contact>
+- Documentation: <https://hubris.pro/docs>
+- Help with this extension or the service: <https://hubris.pro/contact>
 - Problems with SillyTavern itself belong in the [SillyTavern issue tracker](https://github.com/SillyTavern/SillyTavern/issues).
 
 ## License

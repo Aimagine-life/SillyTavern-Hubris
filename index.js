@@ -23,7 +23,7 @@ const PROVIDER_ID = 'hubris';
 const PROVIDER_LABEL = 'Hubris';
 
 // ===== Connection ===========================================================
-const API_ROOT = 'https://api.hubris.pw/v1';
+const API_ROOT = 'https://api.hubris.pro/v1';
 
 /** @type {CustomProviderDefaults} */
 const CONNECTION = {
@@ -40,7 +40,7 @@ const CONNECTION = {
 // ===== Models, key and links ================================================
 /** @type {ModelSetup} */
 const MODELS = {
-    // The list is read from https://api.hubris.pw/v1/models after connecting.
+    // The list is read from https://api.hubris.pro/v1/models after connecting.
     mode: 'discover',
     suggestions: [
         { id: 'deepseek/deepseek-v4.1-flash', label: 'DeepSeek V4.1 Flash' },
@@ -53,9 +53,9 @@ const MODELS = {
 const AUTH = { mode: 'bearer', required: true };
 
 const LINKS = {
-    documentationUrl: 'https://hubris.pw/docs',
-    supportUrl: 'https://hubris.pw/contact',
-    note: 'Get an API key at hubris.pw/keys. Model catalog: hubris.pw/models.',
+    documentationUrl: 'https://hubris.pro/docs',
+    supportUrl: 'https://hubris.pro/contact',
+    note: 'Get an API key at hubris.pro/keys. Model catalog: hubris.pro/models.',
 };
 
 // ===== Settings shown =======================================================
